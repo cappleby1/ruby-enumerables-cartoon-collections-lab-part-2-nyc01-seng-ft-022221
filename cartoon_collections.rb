@@ -3,9 +3,9 @@ def square_array(array)
   # Return a new array of the results
   
   new_array = []
-  array.each { |int|
+  array.each do |int|
     new_array << int * int
-  }
+  end
   return new_array
 end
 
