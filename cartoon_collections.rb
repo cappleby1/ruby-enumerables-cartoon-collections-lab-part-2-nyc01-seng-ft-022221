@@ -32,7 +32,8 @@ def long_planeteer_calls(planeteer_calls)
     else
       array << false
     end 
-    return array
+  end
+  return array
 end
 
 def find_valid_calls(planeteer_calls)
