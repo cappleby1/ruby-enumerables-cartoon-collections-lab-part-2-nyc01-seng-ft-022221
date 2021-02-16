@@ -4,7 +4,7 @@ def square_array(array)
   
   new_array = []
   array.each { |int|
-    new_array << int**2
+    new_array << int * int
   }
   return new_array
 end
