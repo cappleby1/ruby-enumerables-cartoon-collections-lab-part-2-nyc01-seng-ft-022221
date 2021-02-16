@@ -5,7 +5,7 @@ def square_array(array)
   array.each { |int|
     int**2
   }
-  
+  return array
 end
 
 def summon_captain_planet(planeteer_calls)
