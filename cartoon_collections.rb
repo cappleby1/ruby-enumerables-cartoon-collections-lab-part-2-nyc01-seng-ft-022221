@@ -26,8 +26,8 @@ def long_planeteer_calls(planeteer_calls)
   
   array = []
   
-  planeteer_calls.each do |calls|
-    if calls.length > 4
+  planeteer_calls.each do |call|
+    if call.length > 4
       array << true
     else
       array << false
