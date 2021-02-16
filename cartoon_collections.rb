@@ -16,6 +16,7 @@ def summon_captain_planet(planeteer_calls)
   array.map { |string|
     string = string.capitalize()
     string = string + "!"
+  end
   
 end
 
